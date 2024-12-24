@@ -61,14 +61,6 @@ export default class Pacman {
     );
 
     ctx.restore();
-
-    // ctx.drawImage(
-    //   this.pacmanImages[this.pacmanImageIndex],
-    //   this.x,
-    //   this.y,
-    //   this.tileSize,
-    //   this.tileSize
-    // );
   }
 
   #loadPacmanImages() {
